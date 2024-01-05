@@ -1,0 +1,148 @@
+  *{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+  }
+
+  body {
+    background: linear-gradient(180deg, #FCFBED 60%, #b08e6b);
+    background-repeat: no-repeat;
+
+    min-height: 100vh; /*! Com isso eu consegui definir o COLOR do background na tela toda */
+  }
+
+  .logo {
+    /*! Quando colocamos a margin left e right no auto, ela centraliza a imagem automaticamente desde que ela seja display block */
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  main {
+    width: 375px;
+    border: 2px solid #b08e6b;
+    background:#ffff;
+    border-radius: 20px;
+    margin: 0 auto;
+    padding: 44px 24px 23px;
+    margin: 0 auto 40px;
+  }
+
+  label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+    padding-bottom: 46px;
+  }
+
+  select {
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+
+    outline: none;
+    margin-bottom: 24px;
+    padding-left: 18px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+    cursor: pointer
+  }
+
+  select:hover {
+    border-color: #b08e6b;
+    border-width: 2px;
+  }
+
+  input {
+    width: 327px;
+    width: 100%;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid #BBB;
+    background: #FFF;
+
+    outline: none;
+    margin-bottom: 24px;
+    padding-left: 18px;
+
+    font-weight: 700;
+    font-size: 16px;
+    color: #555;
+  }
+
+  input:focus-visible{
+    border-color: #b08e6b;
+    border-width: 2px;
+  }
+
+  button {
+    display: block;
+    width: 327px;
+    height: 48px;
+    border-radius: 50px;
+    
+    background: #b08e6b;
+    color: white;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border: none;
+
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer
+  }
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  button:active {
+    opacity: 0.6;
+  }
+
+  section {
+    border-radius: 20px;
+    border: 1px solid #b08e6b;
+
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column; /*! Só é liberado quando o display flex está definido */
+    align-items: center; /*! Só é liberado quando o display flex está definido */
+  }
+
+
+  .arrow-img {
+    margin: 15px 0;
+  }
+
+  .currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  
+   .currency {
+    margin: 0px;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .currency-value, .currency-value-to-convert {
+    margin: 1px;
+    font-weight: 700;
+    color: #555;
+  }
+
+
+
+  
+  
+ 
